@@ -186,13 +186,13 @@ p {
 
 a {
 	text-decoration: none;
-	color: var(--color-link);
+	color: #D90B7C;
 	outline: none;
 }
 
 a:hover,
 a:focus {
-	color: var(--color-link-hover);
+	color: rgba(223, 75, 55, 0.9);
 }
 
 .content-container a {
