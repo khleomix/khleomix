@@ -13,36 +13,6 @@ A Nextjs recreation of the snake game we all played and loved back in the day.
 
 <img src="./public/banner.jpg" width="700" title="Retro Snake Game" />
 
-## Run Locally
+## GitHub Contributions
 
-Clone the project
-
-```bash
-  git clone git@github.com:khleomix/khleomix.git
-```
-
-Go to the project directory
-
-```bash
-  cd khleomix
-```
-
-Install dependencies
-
-```bash
-  npm install --legacy-peer-deps
-```
-
-Start the server
-
-```bash
-  npm run start
-```
-
-Available Scripts
-
-```bash
-  npm run dev
-  npm run build
-  npm run lint
-```
+![Snake animation](https://github.com/khleomix/khleomix/blob/output/github-contribution-grid-snake.svg)
