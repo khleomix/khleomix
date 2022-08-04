@@ -1,5 +1,7 @@
 
-# Retro Snake Game
+# Khleomix
+
+Personal website is still under construction, you can play the game for now.
 
 A Nextjs recreation of the snake game we all played and loved back in the day.
 
