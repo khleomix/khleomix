@@ -18,13 +18,13 @@ A Nextjs recreation of the snake game we all played and loved back in the day.
 Clone the project
 
 ```bash
-  git clone git@github.com:khleomix/retro-snake-game.git
+  git clone git@github.com:khleomix/khleomix.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd retro-snake-game
+  cd khleomix
 ```
 
 Install dependencies
