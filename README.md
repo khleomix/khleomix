@@ -15,4 +15,4 @@ A Nextjs recreation of the snake game we all played and loved back in the day.
 
 ## GitHub Contributions
 
-![Snake animation](https://github.com/khleomix/khleomix/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/khleomix/khleomix/blob/prod/github-contribution-grid-snake.svg)
