@@ -2,7 +2,7 @@
 
 <a href="https://khleomix.com/">Personal website</a> is still under construction, you can play the game for now.
 
-<a href="https://khleomix.com/">Retro Snake Game</>: A Nextjs recreation of the snake game we all played and loved back in the day.
+<a href="https://khleomix.com/">Retro Snake Game</a>: A Nextjs recreation of the snake game we all played and loved back in the day.
 
 ## GitHub Contributions
 
