@@ -1,17 +1,9 @@
 
 # Khleomix
 
-Personal website is still under construction, you can play the game for now.
+# <small>Hi, my name is</small> JC Palmes
 
-A Nextjs recreation of the snake game we all played and loved back in the day.
-
-## Authors
-
-- [@khleomix](https://github.com/khleomix)
-
-## Screenshots
-
-<img src="./public/banner.jpg" width="700" title="Retro Snake Game" />
+<!–– Web Developer / WordPress Fangirl / Coding Girl / Unicorn Lover / Certified Whovian / Mad as a Hatter ––>
 
 ## GitHub Contributions
 

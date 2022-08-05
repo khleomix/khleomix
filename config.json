@@ -1,0 +1,36 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/khleomix/khleomix/prod/README.md",
+  "title": "Khleomix",
+  "name": "JC Palmes",
+  "ascii": "khleomix",
+  "social": {
+    "github": "khleomix",
+    "linkedin": "jcmaepalmes"
+  },
+  "email": "jpalmes@gmail.com",
+  "ps1_hostname": "khleomix",
+  "ps1_username": "visitor",
+  "repo": "https://github.com/khleomix/khleomix",
+  "company_url": "https://webdevstudios.com/team/jc-palmes/",
+  "colors": {
+    "light": {
+      "background": "#B6C8DC",
+      "foreground": "#0C1116",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    },
+    "dark": {
+      "background": "#0C1116",
+      "foreground": "#EDC3D1",
+      "yellow": "#F4B24A",
+      "green": "#88C52E",
+      "gray": "#D5E9C6",
+      "blue": "#81A2BE",
+      "red": "#E3ADB8"
+    }
+  }
+}
+
