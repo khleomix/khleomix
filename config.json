@@ -23,13 +23,13 @@
       "red": "#BF616A"
     },
     "dark": {
-      "background": "#0C1116",
-      "foreground": "#EDC3D1",
-      "yellow": "#F4B24A",
-      "green": "#88C52E",
-      "gray": "#D5E9C6",
-      "blue": "#81A2BE",
-      "red": "#E3ADB8"
+      "background": "#0A1931",
+      "foreground": "#E9C891",
+      "yellow": "#FF5F7E",
+      "green": "#8A8635",
+      "gray": "#D5D5D5",
+      "blue": "#22577E",
+      "red": "#AE431E"
     }
   }
 }

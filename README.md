@@ -1,6 +1,6 @@
 # Hi, My name is JC Palmes
 
-## <!–– Web Developer / WordPress Fangirl / Coding Girl / Unicorn Lover / Certified Whovian / Mad as a Hatter ––>
+## Web Developer / WordPress Fangirl / Coding Girl / Unicorn Lover / Certified Whovian / Mad as a Hatter
 
 <br />
 
