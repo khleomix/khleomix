@@ -9,20 +9,23 @@
 }
 
 * {
-  @apply text-sm my-2;
+  @apply text-sm;
   font-family: 'Press Start 2P', monospace;
 }
 
 html,
-body,
+body {
+  @apply overflow-x-hidden bg-dark-background p-0 m-0;
+}
+
 body > div:first-child,
 div#__next,
 div#__next > div {
-  @apply h-full overflow-y-auto overflow-x-hidden max-w-full;
+  @apply h-full overflow-auto w-full;
 }
 
 ::-webkit-scrollbar {
-  @apply h-2 w-2;
+  @apply h-[8px] w-[8px];
 }
 
 ::-webkit-scrollbar-track {
@@ -38,7 +41,7 @@ div#__next > div {
 }
 
 main {
-  max-width: 100vw;
+  @apply max-w-full overflow-x-hidden;
 }
 
 h1 {

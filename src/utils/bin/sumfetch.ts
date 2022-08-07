@@ -18,7 +18,7 @@ return `
 <h3>🌍 <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u></h3>
 <h3>🗣 <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u></h3>
 
-<h2>ξ( ❛‿❛)ξ▄︻┻┳═一҉ - -- -- -- 💥  \(˚☐˚”)/</h2>
+<h2>ξ( ❛‿❛)ξ▄︻┻┳═一҉ - -- -- -- 💥 \(˚☐˚”)/</h2>
 
 `;
 };
