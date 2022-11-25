@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" maximum-scale="1">
-		<title>Khleomix</title>
+		<title>Khleomix - JC Palmes</title>
 		<meta name="next-head-count" content="3">
 		<link rel="preload" href="./style.css" as="style">
 		<link rel="stylesheet" href="./style.css">
@@ -10,12 +10,12 @@
 
     <body>
         <div class="container">
-            <div class="container__item landing-page-container">
-                <div class="content__wrapper">
+            <div class="container-item landing-page-container">
+                <div class="content-wrapper">
 
                     <header class="header">
-                        <div class="menu-icon header__item">
-                            <span class="menu-icon__line"></span>
+                        <div class="menu-icon header-item hide">
+                            <span class="menu-icon-line"></span>
                         </div>
 
                         <h1 class="heading">..    -.-. --- -.. .    ... ---    -.-- --- ..-    -.. --- -. .----. -    .... .- ...- .    - --- .-.-.-</h1>
@@ -26,24 +26,26 @@
                     <div class="ellipses-container">
 
                         <h2 class="greeting">JC Palmes</h2>
-                        <p class="sub-text">Coffee. Unicorns. WordPress.</p>
+                        <p class="sub-text">Coffee Unicorns WordPress</p>
 
-                        <div class="ellipses ellipses__outer--thin">
+                        <div class="ellipses ellipses-outer--thin">
 
-                            <div class="ellipses ellipses__orbit"></div>
+                            <div class="ellipses ellipses-orbit">
+                                <div class="handle"></div>
+                            </div>
 
                         </div>
 
-                        <div class="ellipses ellipses__outer--thick"></div>
+                        <div class="ellipses ellipses-outer--thick"></div>
                     </div>
 
                     <div class="scroller">
                         <p class="page-title">home</p>
 
                         <div class="timeline">
-                            <span class="timeline__unit"></span>
-                            <span class="timeline__unit timeline__unit--active"></span>
-                            <span class="timeline__unit"></span>
+                            <span class="timeline-unit"></span>
+                            <span class="timeline-unit timeline-unit--active"></span>
+                            <span class="timeline-unit"></span>
                         </div>
                     </div>
                 </div>
