@@ -21,7 +21,7 @@
                         <h1 class="heading">..    -.-. --- -.. .    ... ---    -.-- --- ..-    -.. --- -. .----. -    .... .- ...- .    - --- .-.-.-</h1>
                     </header>
 
-                    <p class="coords">10.7202° N, 122.5621° E"</p>
+                    <p class="coordinates">10.7202° N, 122.5621° E"</p>
 
                     <div class="ellipses-container">
 
@@ -31,9 +31,11 @@
                         <div class="ellipses ellipses-outer--thin">
 
                             <div class="ellipses ellipses-orbit">
-                                <div class="handle"></div>
+<div class="cup">
+  <div class="coffee"></div>
+</div>
+<div class="smoke"></div>
                             </div>
-
                         </div>
 
                         <div class="ellipses ellipses-outer--thick"></div>

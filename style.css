@@ -20,12 +20,7 @@ h1 {
 }
 
 .landing-page-container {
-	background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%); /* Dark mode */
-	background-image: linear-gradient(-225deg, #d5dee7 0%, #FFE6FA 29%, #ffafbd 67%, #c9ffbf 100%); /* light mode */
-	background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-	background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
-	background-image: linear-gradient(-225deg #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
-	background-image: linear-gradient(-225deg, #F3D2D2 0%, #D4E0E2 19%, #ADE1EF 42%, #D3D1EC 79%, #C8DAEC 100%);
+	background-image: linear-gradient(-225deg, #F3D2D2 0%, #D4E0E2 19%, #81D1E5 42%, #D3D1EC 79%, #C8DAEC 100%);
 	color: #2a2a2a;
 	font-family: "Montserrat", sans-serif;
 	transition: transform 0.7s cubic-bezier(0.47, 0.04, 0.22, 0.92), height 0.2s ease, width 0.2s ease;
@@ -81,7 +76,7 @@ h1 {
 .menu-icon-line:before,
 .menu-icon-line:after {
 	background-color: #2a2a2a;
-	content: "";
+	content: '';
 	display: inline-block;
 	height: 0.2rem;
 	position: relative;
@@ -143,7 +138,7 @@ h1 {
 	margin: 0rem;
 }
 
-.coords {
+.coordinates {
 	display: inline-block;
 	float: left;
 	font-size: 1rem;
@@ -165,29 +160,22 @@ h1 {
 }
 
 .ellipses-container .greeting {
-	color: #FFF5E1;
+	color: #F3EFE0;
 	font-size: 5rem;
-	font-weight: 400;
-	left: 6rem;
+	font-weight: 300;
+	left: 3rem;
 	letter-spacing: 3rem;
 	margin: 0 auto;
 	position: absolute;
 	right: 0;
 	text-align: center;
+    text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
 	text-transform: uppercase;
 	top: 11.6rem;
-}
-
-.ellipses-container .greeting:after {
-	background-color: #434242;
-	border-radius: 50%;
-	content: "";
-	display: inline-block;
-	height: 0.3rem;
-	left: -5.05rem;
-	position: relative;
-	top: -0.65rem;
-	width: 0.3rem;
+	z-index: 1;
 }
 
 .ellipses-container .sub-text {
@@ -199,8 +187,13 @@ h1 {
 	position: absolute;
 	right: 0;
 	text-align: center;
+    text-shadow: 0px 3px 0px #b2a98f,
+                 0px 4px 10px rgba(0,0,0,0.15),
+                 0px 14px 2px rgba(0,0,0,0.1),
+                 0px 24px 30px rgba(0,0,0,0.1);
 	text-transform: uppercase;
 	top: 28rem;
+	z-index: 1;
 }
 
 .ellipses {
@@ -217,14 +210,15 @@ h1 {
 	width: 100%;
 	-webkit-animation: ellipsesOrbit 15s ease-in-out infinite;
 		animation: ellipsesOrbit 15s ease-in-out infinite;
+	z-index: -1;
 }
 
 .ellipses-outer--thin:after {
-	background-image: url("./images/WordPress.png");
+	background-image: url('./images/WordPress.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	bottom: 0;
-	content: "";
+	content: '';
 	left: 0;
 	opacity: 0.05;
 	position: absolute;
@@ -234,7 +228,7 @@ h1 {
 }
 
 .ellipses-outer--thick {
-	border-color: #C060A1 transparent;
+	border-color: #FF008E transparent;
 	border-width: 1px;
 	height: 99.5%;
 	transform: rotate(-45deg);
@@ -244,40 +238,24 @@ h1 {
 }
 
 .ellipses-orbit {
+	border: none;
     position: absolute;
     width: 25px;
     height: 20px;
-    background: #252C32;
-    border: 1px solid #E3FDF5;
-    border-radius: 0 0 5rem 5rem;
-    left: 15%;
+    left: 0;
     top: 7%;
-    background: linear-gradient(to bottom, #252C32 40%, #5B4644 40%, #87624F 70%);
-    transform: rotate(-36deg);
-}
-
-.handle {
-    position: absolute;
-    height: 10px;
-    width: 7px;
-    background: transparent;
-    border-radius: 50% 30%;
-    left: 95%;
-    top: 10%;
-    z-index: -1;
-    border: 1px solid #E3FDF5;
 }
 
 .ellipses-orbit:before {
-	content: url("./images/unicorn.svg");
-    display: block;
+	content: url('./images/unicorn.svg');
+	display: block;
     height: auto;
-    left: -43px;
+    left: -7px;
     margin: 0 auto;
     position: absolute;
     right: 0;
-    top: 23px;
-    transform: rotate(177deg) scaleX(1);
+    top: -58px;
+    transform: rotate(-43deg) scaleX(-1);
     width: 100px;
 }
 
@@ -325,7 +303,7 @@ h1 {
 
 .scroller .timeline .timeline-unit:after {
 	background-color: #434242;
-	content: "";
+	content: '';
 	display: block;
 	float: right;
 	height: 0.1rem;
@@ -334,12 +312,112 @@ h1 {
 	width: 70%;
 }
 
-@-webkit-keyframes ellipsesRotate {
+.cup {
+	width: 76px;
+    height: 76px;
+    background: #dedede;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: 97px;
+    top: 40px;
+    box-shadow: -4px -1px 0 rgb(0 0 0 / 20%);
+    z-index: -1;
+}
+
+.cup:after{
+	background: linear-gradient(-45deg, #cbcbcb, #f2f2f2 );
+	border-radius: 50%;
+	content: '';
+	height: 66px;
+	left: 50%;
+	margin-left: -33px;
+	position: absolute;
+	top: 5px;
+	width: 66px;
+}
+
+.coffee{
+	background: #322626;
+	background-image: linear-gradient(15deg, transparent 0px, transparent 29px, rgba(255,255,255,0.05) 29px, rgba(255,255,255,0.05) 47px);
+	border-radius: 50%;
+	border: 3px solid #e9e9e9;
+	box-shadow: -3px 2px 0 rgba(0,0,0,0.1);
+	height: 47px;
+	left: 50%;
+	margin-left: -25px;
+	margin-top: -26px;
+	position: absolute;
+	top: 50%;
+	transform: rotate(30deg);
+	transition: transform 0.3s;
+	width: 47px;
+	z-index: 1;
+}
+
+.coffee:after {
+	background: linear-gradient(90deg, #d6d6d6, #aeaeae);
+	box-shadow: 0 2px 0 rgba(0,0,0,0.2);
+	content: '';
+	height: 8px;
+	left: -19px;
+	position: absolute;
+	top: 18px;
+	width: 15px;
+}
+
+.coffee:before {
+	background-image: -moz-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 95%), -moz-radial-gradient(5% 9%, ellipse, rgba(255,255,255,0.1), transparent 5%), -moz-radial-gradient(0% 0%, ellipse, rgba(255,255,255,0.3), transparent 55%);
+	background-image: -webkit-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 95%), -webkit-radial-gradient(5% 9%, ellipse, rgba(255,255,255,0.1), transparent 5%), -webkit-radial-gradient(0% 0%, ellipse, rgba(255,255,255,0.3), transparent 55%);
+	background-image: radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 95%), radial-gradient(5% 9%, ellipse, rgba(255,255,255,0.1), transparent 5%), radial-gradient(0% 0%, ellipse, rgba(255,255,255,0.3), transparent 55%);
+	border-radius: 50%;
+	content: '';
+	height: 47px;
+	left: 0;
+	position: absolute;
+	width: 47px;
+}
+
+.cup:hover .coffee {
+  transform: rotate(15deg);
+}
+
+.smoke {
+	animation: bk 11s infinite ;
+	background-image: -moz-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), -moz-radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), -moz-radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%), -moz-radial-gradient(55% 35%, ellipse, rgba(255,255,255,0.2), transparent 15%);
+	background-image: -webkit-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), -webkit-radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), -webkit-radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%), -webkit-radial-gradient(55% 35%, ellipse, rgba(255,255,255,0.2), transparent 15%);
+	background-image: radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%), radial-gradient(55% 35%, ellipse, rgba(255,255,255,0.2), transparent 15%);
+	height: 100px;
+	left: 50%;
+	margin-left: 40px;
+	position: absolute;
+	top: 43px;
+	width: 70px;
+}
+
+.smoke:after {
+	animation: bk 2s 1s infinite;
+	background-image: -moz-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), -moz-radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), -moz-radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%);
+	background-image: -webkit-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), -webkit-radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), -webkit-radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%);
+	background-image: radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%);
+	content: '';
+	height: 100px;
+	position: absolute;
+	width: 100px;
+}
+
+
+@keyframes bk {
 	0% {
-		transform: rotate(-45deg);
+		background-position: 0 0;
+		opacity: 0;
+	}
+	15%, 85% {
+		opacity: 1;
 	}
 	100% {
-		transform: rotate(-405deg);
+		background-position: -20px -25px, -5px -25px, 0 -25px, 0 -25px;
+		opacity:0;
 	}
 }
 
