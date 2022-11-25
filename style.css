@@ -176,7 +176,7 @@ h1 {
 .ellipses {
   border-radius: 50%;
   position: absolute;
-  top: 0;
+  top: 5%;
   border-style: solid;
 }
 
@@ -205,7 +205,7 @@ h1 {
   width: 99.5%;
   height: 99.5%;
   border-color: #C060A1 transparent;
-  border-width: 2px;
+  border-width: 1px;
   transform: rotate(-45deg);
   -webkit-animation: ellipsesRotate 15s ease-in-out infinite;
           animation: ellipsesRotate 15s ease-in-out infinite;
@@ -220,18 +220,16 @@ h1 {
   right: 6.75rem;
 }
 .ellipses__orbit:before {
-  content: "";
-  width: 0.7rem;
-  height: 0.7rem;
-  border-radius: 50%;
-  display: inline-block;
-  background-color: #C060A1;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+	content: url("./images/unicorn.svg");
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    left: 67px;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: rotate(66deg) scaleX(-1);
 }
 
 .scroller {

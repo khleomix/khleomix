@@ -26,7 +26,7 @@
                     <div class="ellipses-container">
 
                         <h2 class="greeting">JC Palmes</h2>
-                        <p class="sub-text">Coffee. WordPress. Unicorns.</p>
+                        <p class="sub-text">Coffee. Unicorns. WordPress.</p>
 
                         <div class="ellipses ellipses__outer--thin">
 
